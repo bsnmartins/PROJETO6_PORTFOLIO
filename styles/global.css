@@ -35,6 +35,7 @@
     --grey-600:#E2E4E9;
 
     --bg-intro: url(../assets/Background_Intro.png) no-repeat  top center/cover;
+    --bg-footer: url(../assets/Background_Contacts.png) no-repeat top center/cover;
 
 }
 
@@ -51,4 +52,25 @@ h2 {
 h3{
     font: var(--text-subtitle);
     color: var(--red);
+}
+
+.project_title {
+    position: absolute;
+    bottom: 62px;
+    margin: 12px;
+    font: var(--text-title-sm);
+    color: var(--grey-600);
+}
+
+.description {
+    position: absolute;
+    bottom: 15px;
+    font: var(--text-sm);
+    color: var(--grey-500);
+    margin: 12px;
+}
+
+a {
+    text-decoration: none;
+    box-sizing: border-box;
 }
